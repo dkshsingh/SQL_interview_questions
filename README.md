@@ -76,4 +76,28 @@
           Answer: E-R model is an Entity-Relationship model which defines the conceptual view of the database.
 
           The E-R model basically shows the real-world entities and their association/relations. Entities here represent the set of attributes in the database.
-          
+  #### 12) Define Cursor and its types.
+
+          Answer: Cursor is a temporary work area that stores the data, as well as the result set, occurred after manipulation of data retrieved. A cursor can hold only one row at a time.
+
+          The 2 types of Cursor are:
+
+          Implicit cursors are declared automatically when DML statements like INSERT, UPDATE, DELETE is executed.
+          Explicit cursors have to be declared when SELECT statements that are returning more than one row are executed     
+       
+#### 13) What is the Database transaction?
+
+          Answer: Sequence of operation performed which changes the consistent state of the database to another is known as the database transaction. After the completion of the transaction, either the successful completion is reflected in the system or the transaction fails and no change is reflected. 
+       
+#### 14) What do you understand by Join?
+
+          Answer: Join is the process of deriving the relationship between different tables by combining columns from one or more tables having common values in each. When a table joins with itself, it is known as Self Join.    
+#### 15) Differentiate between ‘Cluster’ and ‘Non-cluster’ index.
+
+          Answer: Clustered index alters the table and re-order the way in which the records are stored in the table. Data retrieval is made faster by using the clustered index.
+
+          A Non-clustered index does alter the records that are stored in the table but creates a completely different object within the table.       
+       
+       
+       
+       
